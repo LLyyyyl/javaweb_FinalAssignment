@@ -1,0 +1,30 @@
+body{
+    background: url(../css/images/login.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+#errorDiv {
+    width: 30%;
+    margin:auto;
+    padding-left: 20px;
+    height: 400px;
+}
+
+#errorHint {
+    color: white;
+    padding-top: 300px;
+    text-align: center;
+}
+
+#errorInfo,
+a,
+#leaveTime {
+    color: red;
+    font-weight: bold;
+}
+
+#leaveTime {
+    font-size: 20px;
+    margin: 0px 5px;
+}

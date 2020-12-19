@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    margin: center;
+    height: 30px;
+    width: 100%;
+    background-color: #418be8;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 240px;
+}
+
+.nav {
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+  }
+
+.nav ul li {
+    float: left;
+    display: block;
+    height: 14px;
+}
+.nav ul li:hover{
+    counter-reset: #ffffff;
+  }
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+    text-align: center;
+    height: 30px;
+    padding: 0 18px;
+    line-height: 30px;
+}
+
+.nav ul li ul li {
+    display: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+    padding-top: 3px;
+    text-align: center;
+    float: inherit;
+    background: #418be8;
+    font-size: 12px;
+}
+
+.nav ul li:hover ul li {
+    display: block;
+    position:relative;
+    z-index:9999;
+}
+
+.user {
+    float: left;
+    padding-left: 10px;
+    width: 200px;
+    line-height: 30px;
+}
+
+.role {
+    float: right;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.bg {
+    width: 100%;
+    height: 280px;
+}
+
+.bottom {
+    padding-top: 15px;
+    height: 540px;
+    width: 100%;
+}
+
+.name {
+    text-align: center;
+    color: #999999;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.introduct {
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+}
+
+.content {
+    height: 405px;
+    width: 100%;
+    padding:30px 250px 30px 250px;
+    font-size: 13px;
+    color: #999999;
+}
+.txt {
+    height: 110px;
+}
+
+.base {
+    height: 56px;
+    width: 100%;
+    font-size: 13px;
+    background-color: #999999;
+    color: #fff;
+    text-align: center;
+    line-height: 66px;
+}
+
+.goods {
+    float: left;
+    padding: 0 8px 0 10px;
+    text-align: left;
+    width: 184px;
+    height: 330px;
+    border-right: 1px solid #bbb8b8;
+}
+
+.order {
+    float: left;
+    padding: 0 8px 0 10px;    
+    text-align: left;
+    width: 184px;
+    height: 330px;
+    border-right: 1px solid #bbb8b8;
+}
+
+.finance {
+    float: left;
+    padding: 0 8px 0 10px;
+    text-align: left;
+    width: 184px;
+    height: 330px;
+    border-right: 1px solid #bbb8b8;
+}
+
+.entry {
+    float: left;
+    padding: 0 8px 0 10px;
+    text-align: left;
+    width: 184px;
+    height: 330px;
+    border-right: 1px solid #bbb8b8;
+}
+
+.system {
+    float: left;
+    padding: 0 8px 0 10px;
+    text-align: left;
+    width: 184px;
+    height: 330px;
+}
+
+.content h4 {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.pic {
+    text-align: center;
+
+}

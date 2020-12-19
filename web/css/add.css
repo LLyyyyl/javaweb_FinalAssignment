@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    padding-top: 3px;
+    padding-right: 20px;
+    display:block;
+    font-size:13px;
+    text-align: right;
+}
+
+.header {
+    margin: center;
+    height: 30px;
+    width: 100%;
+    background-color: #418be8;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.container {
+    height: 743px;
+    margin-left: 330px;
+    margin-right: 370px;
+    padding-left: 10px;
+}
+
+.heading {
+    height: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.details {
+    height: 400px;
+    padding-top: 30px;
+}
+
+.long {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inl {
+    height: 18px;
+    width: 600px;
+    outline: none;
+    font-size: 13px;
+}
+
+.details p {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#placeName,
+#unitName,
+#catalog1Code,
+#catalog2Code {
+    height: 18px;
+    width: 603px;
+    outline: none;
+    font-size: 13px;
+}
+
+.bt {
+    margin-top: 100px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.bt input {
+    width: 80px;
+    line-height:30px;
+    display: inline-block;
+    background: #418be8;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #DBDBDB;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+}
+
+.base {
+    height: 56px;
+    width: 100%;
+    font-size: 13px;
+    background-color: #999999;
+    color: #fff;
+    text-align: center;
+    line-height: 66px;
+}
